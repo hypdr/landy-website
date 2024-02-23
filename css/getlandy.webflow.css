@@ -701,6 +701,27 @@
   right: 30px;
 }
 
+.button-primary-3 {
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #1a1b1f;
+  padding: 12px 25px;
+  font-size: 12px;
+  line-height: 20px;
+  transition: all .2s;
+}
+
+.button-primary-3:hover {
+  color: #fff;
+  background-color: #02c9a7;
+}
+
+.button-primary-3:active {
+  color: #333;
+  background-color: #fff;
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 728px;
