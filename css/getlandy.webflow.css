@@ -50,10 +50,10 @@ a:visited {
 }
 
 .hero-split {
-  max-width: 50%;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  max-width: 50%;
   display: flex;
 }
 
@@ -110,9 +110,9 @@ a:visited {
 
 .navbar-logo-left-container {
   z-index: 5;
+  background-color: rgba(0, 0, 0, 0);
   width: 1030px;
   max-width: 100%;
-  background-color: rgba(0, 0, 0, 0);
   margin-left: auto;
   margin-right: auto;
   padding: 15px 20px;
@@ -244,9 +244,9 @@ a:visited {
 }
 
 .nav-divider {
+  background-color: #e4ebf3;
   width: 1px;
   height: 22px;
-  background-color: #e4ebf3;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -346,10 +346,10 @@ a:visited {
 }
 
 .footer-form-field {
-  height: 48px;
   border: 1px solid #a6b1bf;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
+  height: 48px;
   margin-bottom: 0;
   padding: 12px 16px;
   font-size: 14px;
@@ -361,12 +361,6 @@ a:visited {
   border-color: #76879d;
 }
 
-.footer-form-field::-ms-input-placeholder {
-  color: rgba(26, 27, 31, .8);
-  font-size: 14px;
-  line-height: 22px;
-}
-
 .footer-form-field::placeholder {
   color: rgba(26, 27, 31, .8);
   font-size: 14px;
@@ -374,8 +368,6 @@ a:visited {
 }
 
 .footer-form-submit {
-  width: 50px;
-  height: 48px;
   background-color: #1a1b1f;
   background-image: url('../images/');
   background-position: 50%;
@@ -383,6 +375,8 @@ a:visited {
   background-size: auto;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
+  width: 50px;
+  height: 48px;
   transition: all .2s;
 }
 
@@ -391,9 +385,9 @@ a:visited {
 }
 
 .footer-divider-two {
+  background-color: #e4ebf3;
   width: 100%;
   height: 1px;
-  background-color: #e4ebf3;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -428,9 +422,9 @@ a:visited {
 }
 
 .footer-wrapper {
-  max-width: 900px;
   justify-content: space-between;
   align-items: flex-start;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -495,9 +489,9 @@ a:visited {
 }
 
 .footer-divider {
+  background-color: #e4ebf3;
   width: 100%;
   height: 1px;
-  background-color: #e4ebf3;
   margin-top: 30px;
   margin-bottom: 15px;
 }
@@ -513,10 +507,10 @@ a:visited {
 }
 
 .form-block.signup-block {
-  width: 100%;
   flex-flow: wrap;
   justify-content: center;
   align-items: center;
+  width: 100%;
   display: flex;
 }
 
@@ -526,9 +520,9 @@ a:visited {
 
 .modal-form-body {
   z-index: 10;
-  max-width: 1150px;
   color: #313131;
   background-color: #fff;
+  max-width: 1150px;
   padding: 40px;
   position: relative;
   box-shadow: 0 9px 50px -14px #000;
@@ -546,16 +540,12 @@ a:visited {
 }
 
 .text-field.main-text-field {
-  height: 50px;
   background-color: rgba(255, 255, 255, .2);
   border-style: none none solid;
   flex: 1 0 300px;
+  height: 50px;
   margin-bottom: 0;
   font-size: 20px;
-}
-
-.text-field.main-text-field::-ms-input-placeholder {
-  font-weight: 300;
 }
 
 .text-field.main-text-field::placeholder {
@@ -575,8 +565,8 @@ a:visited {
 }
 
 .error-message {
-  min-width: 300px;
   flex: 1;
+  min-width: 300px;
   line-height: 20px;
 }
 
@@ -596,13 +586,13 @@ a:visited {
 }
 
 .genbutton {
-  width: auto;
-  height: auto;
   color: #fff;
   text-transform: uppercase;
   background-color: #000;
   justify-content: center;
   align-items: center;
+  width: auto;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   padding: 7px 20px;
@@ -616,10 +606,10 @@ a:visited {
 }
 
 .genbutton.cta-button-main {
-  height: 50px;
   background-color: #9179bc;
   flex: 1 0 170px;
   order: 1;
+  height: 50px;
   margin-top: 20px;
   font-size: 20px;
   font-weight: 300;
@@ -676,12 +666,12 @@ a:visited {
 }
 
 .form {
-  max-width: 490px;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   flex-wrap: wrap;
   flex: 1;
   justify-content: space-between;
+  max-width: 490px;
   display: flex;
 }
 
@@ -706,8 +696,8 @@ a:visited {
 }
 
 .modal-form-wrapper {
-  max-width: 400px;
   flex-direction: column;
+  max-width: 400px;
   display: flex;
 }
 
@@ -717,8 +707,8 @@ a:visited {
 
 .close-icon {
   z-index: 20;
-  width: 25px;
   cursor: pointer;
+  width: 25px;
   display: none;
   position: absolute;
   top: 30px;
@@ -834,10 +824,6 @@ a:visited {
     padding-bottom: 40px;
   }
 
-  .text-field.main-text-field::-ms-input-placeholder {
-    font-size: 16px;
-  }
-
   .text-field.main-text-field::placeholder {
     font-size: 16px;
   }
@@ -907,8 +893,8 @@ a:visited {
 
   .nav-divider {
     width: 200px;
-    height: 1px;
     max-width: 100%;
+    height: 1px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
